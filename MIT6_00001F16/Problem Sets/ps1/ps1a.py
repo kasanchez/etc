@@ -7,7 +7,7 @@ Created on Sat Nov 10 11:45:04 2018
 """
 
 annual_salary = int(input('Enter your starting annual salary: '))
-portion_saved = float(input('Enter the percent of your salary to be saved as a decimal: '))
+portion_saved = float(input('Enter the percentage of your salary to be saved as a decimal: '))
 monthly_portion_saved = (annual_salary / 12.0) * portion_saved
 
 total_cost = int(input('Enter cost of your dream home: '))
